@@ -1,9 +1,10 @@
 h1
 {
-	font-size: 30px; font-family: impact;
+	font-size: 30px; color: blue;
 }
-span
+p
 {
 	font-weight: 20px; font-family: Arial;
-	
 }
+	
+
