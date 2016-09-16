@@ -1,0 +1,100 @@
+body
+{background-color: white;
+}
+.ct-chart{	height: 540px; width:100%; max-width: 800px; margin: 0 auto; background-color: rgba();
+}
+h1
+ { 
+   font-family: '8BITWONDERNominal'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+p  { 
+   font-family: '8BITWONDERNominal'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
+ul { 
+   font-family: '8BITWONDERNominal'; 
+   font-weight: normal; 
+   font-style: normal; 
+
+}
+
+@keyframes blink {
+	0% {
+		color: red;
+	}
+
+	25% {
+		color: blue;
+	}
+
+	30%{
+		color: orange;
+	}
+	50%{
+		color: green;
+	}
+
+	60%{
+		color: violet;
+	}
+
+	75%{
+		color: yellow;
+	}
+
+	80%{
+		color: black;
+	}
+	90%
+	{
+		color: white;
+	}
+
+	100% {
+		color: brown;
+	}
+}
+.site-title{
+	color: red;
+	animation-name: blink;
+	animation-duration: 2s;
+	animation-iteration-count: infinite; 
+	animation-timing-function: step-end; 
+}
+
+body{
+	background-image: url(http://www.androidguys.com/wp-content/uploads/2016/04/8bit_wallpaper7.jpg);
+	text-align:center; background-size: cover;
+}
+
+.YELP {color: #d70206;} 
+.FOURSQAURE {color:#f05b4f;}
+.GOOGLE {color: orange;}
+.ct-label{color: black; font-size: 10px}
+
+.ct-label{font-family: '8BITWONDERNominal'
+
+}
+
+.ct-series-a .ct-bar {
+  /* Colour of your bars */
+  stroke: red;
+  /* The width of your bars */
+  stroke-width: 10px;  
+}
+.ct-series-b .ct-bar {
+  /* Colour of your bars */
+  stroke: #f05b4f;
+  /* The width of your bars */
+  stroke-width: 10px;
+}
+
+.ct-series-c .ct-bar {
+  /* Colour of your bars */
+  stroke: orange;
+  /* The width of your bars */
+  stroke-width: 12px;
+}
