@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BURGERBEATDOWN</title>
+	<title>BURGERBEATDOWN</title>
 <link rel="stylesheet" href= "https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
-
-    <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"> </script>
-
-
+    <script src="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"> </script>
 
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/8bit-wonder" type="text/css"/>
 
 
-<link rel="stylesheet" type="text/css" href="STYLeZ.css">
 
+
+
+<link rel="stylesheet" type="text/css" href="STYLeZ.css">
 
 
 
@@ -20,27 +19,37 @@
 
 
 <body>
-<h1> BURGER QUEST! </h1>
+<center>
+<h1 class="site-title"> BURGER QUEST! </h1> </center>
 
-<center><img src="https://media.serious.io/b1af9e787df9ee63/serious.gif"></center>
-<h2> <p> IF YOU'RE A MEATY LOVER LIKE ME YOU'RE ALWAYS ON THE QUEST FOR THE BEST BURGER! </h2></p> 
-<h3><p> As a New Yorker I had many to choose from but narrowed it down. </p></h3>
-<h4><p> In this graph I break down best burger joints in Stockholm!
 
+<center><img src="https://media.serious.io/b1af9e787df9ee63/serious.gif"/> </center>
+
+<h2> <p> IF YOUR A BURGER BRO LIKE ME YALWAYS ON THE QUEST FOR THE BEST BEEF! </h2></p> 
+<h3><p> Join me on my quest for the best burger in Stockholm.  </p></h3>
+<h4><p> This graph breaks down rates the best burger joints in Stockholm using three  popular rating systems: </p></h4>
+<center> 
+      <ul> 
+       <strong><li class="YELP"> = YELP</li></strong>
+       <strong> <li class="FOURSQAURE">= FOURSQUARE</li></strong>
+        <li class="GOOGLE"><strong>= GOOGLE</li> 
+        </strong>
+
+</ul>
+</center>
 <div class="ct-chart" id="beef-chart"></div>
 <script type="text/javascript">
 var data = {
-  labels: ['FLIPPIN', 'LILYS', 'GRILL', 'FRANKYS', 'PHILS', 'OLJ', 'PHILS', 'VIGÅRDA', 'BARRELS' ],
+  labels: ['FLIPPIN', 'LILYS', 'GRILL', 'FRANKYS', 'PHILS', 'OLJ', 'PHILS', 'VIGARDA', 'BARRELS'],
   series: [
-    [5, 4, 3, 7, 5, 10, 3, 4, 8, 10],
-    [3, 2, 9, 5, 4, 6, 4, 6, 7, 8 ],
-    [3, 2, 9, 5, 4, 6, 4, 6, 7, 8,]
-    ]
-  
+    [8, 7, 9, 8.5, 8,    8,    6,  8, 8, ],
+    [9, 8, 8, 8,  8.5, 8.5, 8.5, 8.7, 9.1,],
+    [8, 8, 8, 9,   8, 6, 8,   8,  8.5,  ]
+  ]
 };
 
 var options = {
-  seriesBarDistance: 10
+  seriesBarDistance: 12
 };
 
 var responsiveOptions = [
@@ -57,21 +66,6 @@ var responsiveOptions = [
 new Chartist.Bar('#beef-chart', data, options, responsiveOptions);
 
 </script>
-
- <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-84077040-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-
-
 
 
 </body>
