@@ -27,7 +27,7 @@
 
 </ul>
 </center>
-<div id="beef-chart"></div>
+<div class="ct-chart"></div>
 <script type="text/javascript">
 var data = {
   labels: ['FLIPPIN', 'LILYS', 'GRILL', 'FRANKYS', 'PHILS', 'OLJ', 'PHILS', 'VIGARDA', 'BARRELS']
@@ -53,8 +53,7 @@ var responsiveOptions = [
   }]
 ];
 
-new Chartist.Bar('#beef-chart', data, options, responsiveOptions);
-
+new Chartist.Bar('.ct-chart', data, options, responsiveOptions);
 </script>
 
 <script>
