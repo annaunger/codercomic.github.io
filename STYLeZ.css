@@ -3,23 +3,14 @@ body
 }
 .ct-chart{	height: 540px; width:100%; max-width: 800px; margin: 0 auto; background-color: rgba();
 }
-h1
- { 
-   font-family: '8BITWONDERNominal'; 
-   font-weight: normal; 
-   font-style: normal; 
+
 }
 p  { 
    font-family: '8BITWONDERNominal'; 
    font-weight: normal; 
    font-style: normal; 
 }
-ul { 
-   font-family: '8BITWONDERNominal'; 
-   font-weight: normal; 
-   font-style: normal; 
 
-}
 @keyframes blink {
 	0% {
 		color: red;
