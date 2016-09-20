@@ -23,3 +23,10 @@ h1
 	font-family: "FranklinITCProThin", impact, arial;
 
 }
+h3
+{
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
