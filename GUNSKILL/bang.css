@@ -14,7 +14,8 @@ body
 {
 	background-image: url("http://images.techtimes.com/data/images/full/15869/ferguson.jpg");
 	text-align: center;
-	background-size: auto;
+	background-size: cover;
+	background-height: 400px;
 	
 }
 
