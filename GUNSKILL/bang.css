@@ -15,11 +15,17 @@ html
 	background-image: url("http://images.techtimes.com/data/images/full/15869/ferguson.jpg");
 	text-align: center;
 	background-size: cover;
-	
+}
+
 
 h1
 {
 	font-family: "FranklinITCProThin", impact, arial;
 
 }
-h3
+
+.page-content
+
+{
+	font-size: 16em;
+}
