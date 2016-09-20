@@ -6,6 +6,8 @@
 <head>
 	<title>BANGBANG</title>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 <link rel="stylesheet" type="text/css" href="bang.css">
 
 
@@ -19,6 +21,27 @@
 
 
  <h1 class="killer">COP KILL COUNT</h1>
+
+
+ <script type="text/javascript">
+   		var count = 0;
+   		var delay =10;
+
+    (function(){
+    // do some stuff //page counter code
+    count ++; // increase by 1
+   	$(".page-content").html (count);
+   	delay += 10;
+
+//return; means stop at number, count; means repeat number 
+   	if (count == 656) return;
+   
+
+</script>
+
+    console.log(count);
+    setTimeout(arguments.callee, 1000);
+})();
 
 
 <!--analyticscode-->
