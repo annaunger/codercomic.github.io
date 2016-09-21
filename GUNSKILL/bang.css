@@ -43,6 +43,8 @@ p
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     box-sizing: border-box;
+    font-size: 1.3em;
+    -webkit-font-smoothing: antialiased;
     font-family: Helvetica Arial sans-serif;
 
 }
