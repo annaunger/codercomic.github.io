@@ -27,5 +27,7 @@ h1
 .page-content
 
 {
-	font-size: 16em;
+	font-size: 9em;
+	font-weight: normal;
+	font-family: arial; 
 }
