@@ -34,10 +34,19 @@ h1
 
 }
 
-h2
+p
+
 {
-	font-family: impact charcoal sans-serif;
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    box-sizing: border-box;
+
+
 }
+
 
 .page-content
 
