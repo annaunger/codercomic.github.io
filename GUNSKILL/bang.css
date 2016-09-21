@@ -39,5 +39,6 @@ h1
 {
 
 	margin: auto;
-	resize: 80px;
+	resize: auto;
+	margin-top: auto;
 }
