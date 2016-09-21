@@ -30,4 +30,6 @@ h1
 	font-size: 9em;
 	font-weight: normal;
 	font-family: arial; 
+	padding: 0;
+    margin: 0;
 }
