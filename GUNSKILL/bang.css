@@ -38,7 +38,7 @@ h1
 #map
 {
 
-	margin: auto;
-	resize: auto;
-	margin-top: auto;
+	margin: 5;
+	resize: 100;
+	margin-top: 100;
 }
