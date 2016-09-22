@@ -43,22 +43,22 @@
 
  <script type="text/javascript">
    		var count = 10;
-   		var delay =5;
+   		var delay =0;
 
     (function(){
     // do some stuff //page counter code
     count ++; // increase by 1
    	$(".page-content").html (count);
-   	delay += 10;
+   	delay += 0;
 
 //return; means stop at number, count; means repeat number 
-   	if (count == 700) count;
+   	if (count == 700) repeat;
    
 
 
 
     console.log(count);
-    setTimeout(arguments.callee, 500);
+    setTimeout(arguments.callee, 300);
 })();
 
 </script>
