@@ -13,14 +13,14 @@
    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
    <link rel="stylesheet" href="film.css" />
 </head>
-<body>
+   <body>
 <div class="container">
    <header>
       <h1>Front Row</h1>
    </header>
    <section id="fetch">
       <input type="text" placeholder="Enter a movie title" id="term" />
-      <button id="search">Find me a poster</button>
+      <button id="search">Pick A Poster Punk</button>
    </section>
    <section id="poster">
    </section>
